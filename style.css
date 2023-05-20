@@ -3,11 +3,15 @@
   padding: 0;
 }
 
+html {
+background: rgb(22, 1, 1);
+}
+
 .checkbox-wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 .checkmark {
@@ -18,9 +22,8 @@
   border-radius: 10px;
   position: relative;
   transition: background-color 0.4s;
-  /* This property is missed in the video */
-  /* overflow: hidden; */
-  /* ******* */
+  overflow: hidden;
+
 }
 
 #check:checked ~ .checkmark {
